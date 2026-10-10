@@ -7,15 +7,7 @@
   <link rel="canonical" href="https://junpeimay-games.web.app/">
   <title>転送中 - GAME ARCADE</title>
   <script>
-    (function () {
-      var base = "https://junpeimay-games.web.app";
-      var path = location.pathname;
-      if (path === "/games" || path.indexOf("/games/") === 0) {
-        path = path.slice("/games".length) || "/";
-      }
-      if (!path) path = "/";
-      location.replace(base + path + location.search + location.hash);
-    })();
+    window.location.replace("https://junpeimay-games.web.app/" + location.search + location.hash);
   </script>
 </head>
 <body>
