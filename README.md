@@ -2,10 +2,11 @@
 
 このリポジトリは、`junpeimay-wq.github.io` のGitHub Pages公開設定を管理するサイト管理用リポジトリです。公開ドメイン直下のファイルを管理し、現在は次の用途に限定しています。
 
-- `robots.txt` でクロール方針と `games` サイトのサイトマップを案内する
+- `sitemap.xml` でホストルートからのサイトマップを提供する
+- `robots.txt` でクロール方針とサイトマップ（`https://junpeimay-wq.github.io/sitemap.xml`）を案内する
 - `index.html` から `games` サイトへ案内する
 
-ゲーム本体とそのサイトマップは [`junpeimay-wq/games`](https://github.com/junpeimay-wq/games) で管理します。このリポジトリにはゲーム本体を複製しません。
+ゲーム本体は [`junpeimay-wq/games`](https://github.com/junpeimay-wq/games) で管理します。このリポジトリにはゲーム本体を複製しません。
 
 ## 内部ドキュメント
 
